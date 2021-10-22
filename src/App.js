@@ -66,7 +66,8 @@ const handleKeydown = e =>{
 <WrongLetters wrongLetters={wrongLetters}/>
 <Word  selectedWord={selectedWord} correctLetters={correctLetters}/>
 </div>
-<PopUp/>
+<PopUp correctLetters={correctLetters} wrongLetters={wrongLetters} 
+selectedWord={selectedWord} setPlayable={setPlayable}/>
 <Notification showNotification={showNotification}/>
     </>
   );
