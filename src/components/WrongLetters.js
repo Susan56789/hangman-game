@@ -12,6 +12,7 @@ const WrongLetters = ({wrongLetters}) => {
             
             .reduce((prev, curr)=>prev === null ? [curr] : [prev,',', curr ],null) 
             }
+            
             </div>
         </div>
     );
